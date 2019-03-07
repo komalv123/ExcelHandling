@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suitemercury]">
+  <test thread-count="5" name="TestMercury(failed)">
+    <classes>
+      <class name="com.cjc.tourExcel.MarcuryTest">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="enterUrl"/>
+          <include name="maximizeBrowser"/>
+          <include name="captureScreenshot"/>
+          <include name="deleteAllCokkies"/>
+          <include name="getAllCookies"/>
+          <include name="loginwithValidDs" invocation-numbers="1"/>
+          <include name="dbConnection"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.cjc.tourExcel.MarcuryTest -->
+    </classes>
+  </test> <!-- TestMercury(failed) -->
+</suite> <!-- Failed suite [Suitemercury] -->
