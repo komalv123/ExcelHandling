@@ -34,6 +34,7 @@ public class MarcuryTest
 	  public void loginwithValidDs(String username, String password) 
 	  {
 		  System.out.println("Login for mercury tour application");
+		  System.out.println("hiiiiiiiiiiiiiiiiiii");
 		  driver.findElement(By.xpath("//input[@name='userName']")).sendKeys(username);
 		  driver.findElement(By.xpath("//input[@name='password']")).sendKeys(password);
 		  driver.findElement(By.xpath("//input[@name='login']")).click();
