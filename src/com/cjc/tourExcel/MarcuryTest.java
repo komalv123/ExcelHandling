@@ -33,6 +33,7 @@ public class MarcuryTest
 	  @Test(dataProvider = "test1",description="Enter Valid username and password for User1")
 	  public void loginwithValidDs(String username, String password) 
 	  {
+		  System.out.println("Login for mercury tour application");
 		  driver.findElement(By.xpath("//input[@name='userName']")).sendKeys(username);
 		  driver.findElement(By.xpath("//input[@name='password']")).sendKeys(password);
 		  driver.findElement(By.xpath("//input[@name='login']")).click();
